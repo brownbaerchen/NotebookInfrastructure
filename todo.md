@@ -21,18 +21,17 @@ For the first two tasks, the pySDC repository can serve as a reference. Ultimate
   - [x] creates an artifact with a coverage report
 
 ## Task 3: Familiarize yourself with notebooks
- - [ ] Look for alternatives to Jupyter notebooks for interactive testing. Have a look at the Firedrake repository. What are pros and cons of various approaches? Do this before committing to notebooks. Subsequently, "notebook" will refer to whatever proved to be best.
- - [ ] Write a tutorial for your toy code in a notebook
+ - [x] Look for alternatives to Jupyter notebooks for interactive testing. Have a look at the Firedrake repository. What are pros and cons of various approaches? Do this before committing to notebooks. Subsequently, "notebook" will refer to whatever proved to be best. **Winner (preliminary): [Jupytext](https://github.com/mwouts/jupytext)**
+ - [ ] Write a tutorial for your toy code in a python file that includes an equation, some code, and a plot
+ - [ ] Generate a jupyter notebook from the python file using Jupytext which shows the output of the code. D.o not check the notebook into git. We only want the plain text python file in version control
 
 ## Task 4: Write local tests for notebooks
- - [ ] Find a framework for automating tests in notebooks. Ideally, a pytest plugin or an alternative to pytest.
- - [ ] Write an automatable smoke test for the tutorial.
- - [ ] Create a coverage report for the tutorial notebook
- - [ ] Merge the coverage reports of the tutorial tests and the unit tests
+ - [ ] Write an automatable smoke test for the tutorial. Try simply importing the tutorial python file, which should run all code in that file, in a test.
 
 ## Task 5: Implement the notebook tests in the GitHub CI
- - [ ] Add a task running the notebook tests in parallel to the unit tests
+ - [ ] Add a task running the tutorial tests in parallel to the unit tests
  - [ ] Create an artifact with the merged coverage report
+ - [ ] Generate the notebooks in CI and output them as an artifact
 
 ## Task 6: Add MPI parallelism
  - [ ] Add a parallel module to your toy code. E.g. parallel sum
