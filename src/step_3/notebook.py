@@ -36,6 +36,6 @@ plt.show()
 
 
 # %% [markdown]
-# This is just a docs on how to create simple notebooks using Jupytext. The notebook won't be automatically run and the output won't be saved.
-# jupytext --to ipynb path/to/notebook.py
+# This is just a docs on how to create simple notebooks using Jupytext. 
+# jupytext --to ipynb --execute path/to/notebook.py
 # jupyter notebook path/to/notebook.ipynb
