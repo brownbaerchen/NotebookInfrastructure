@@ -33,3 +33,9 @@ import matplotlib.pyplot as plt
 list = [add(i, i) for i in range(10)]
 plt.plot(list)
 plt.show()
+
+
+# %% [markdown]
+# This is just a docs on how to create simple notebooks using Jupytext. The notebook won't be automatically run and the output won't be saved.
+# jupytext --to ipynb path/to/notebook.py
+# jupyter notebook path/to/notebook.ipynb
