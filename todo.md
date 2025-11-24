@@ -22,8 +22,8 @@ For the first two tasks, the pySDC repository can serve as a reference. Ultimate
 
 ## Task 3: Familiarize yourself with notebooks
  - [x] Look for alternatives to Jupyter notebooks for interactive testing. Have a look at the Firedrake repository. What are pros and cons of various approaches? Do this before committing to notebooks. Subsequently, "notebook" will refer to whatever proved to be best. **Winner (preliminary): [Jupytext](https://github.com/mwouts/jupytext)**
- - [ ] Write a tutorial for your toy code in a python file that includes an equation, some code, and a plot
- - [ ] Generate a jupyter notebook from the python file using Jupytext which shows the output of the code. Do not check the notebook into git. We only want the plain text python file in version control.
+ - [x] Write a tutorial for your toy code in a python file that includes an equation, some code, and a plot
+ - [x] Generate a jupyter notebook from the python file using Jupytext which shows the output of the code. Do not check the notebook into git. We only want the plain text python file in version control.
 
 ## Task 4: Write local tests for notebooks
  - [ ] Write an automatable smoke test for the tutorial. Try simply importing the tutorial python file, which should run all code in that file, in a test.
