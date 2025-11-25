@@ -23,7 +23,7 @@ jobs:
         shell: micromamba-shell {0}
       - name: Run Ruff to check for linting issues
         run: |
-          ruff check src/ tests/ --exclude src/step_3/notebook.py
+          ruff check src/ tests/ 
         shell: micromamba-shell {0}
 
   run-tests:
